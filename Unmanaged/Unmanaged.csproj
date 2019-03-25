@@ -11,6 +11,10 @@
     <FileVersion>0.0.4.0</FileVersion>
     <Version>0.0.4</Version>
     <PackageId>Unmanaged.Map</PackageId>
+    <PackageProjectUrl>https://github.com/chkrich/Unmanaged.Map</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/chkrich/Unmanaged.Map.git</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <Product>Unmanaged.Map</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
