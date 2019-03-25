@@ -199,10 +199,10 @@ namespace Unmanaged
 	/// </summary>
 	/// <example>
 	/// <code>
-	/// [UnmanagedStruct(8)]
 	/// [DllImport("college.dll")]
 	/// public static extern IntPtr GetStudent();
 	/// 
+	/// [UnmanagedStruct(8)]
 	/// public class Student
 	/// {
 	///	    [UnmanagedField(Unmanaged.Type.BOOL)]
@@ -256,10 +256,10 @@ namespace Unmanaged
 	/// </summary>
 	/// <example>
 	/// <code>
-	/// [UnmanagedStruct(8)]
 	/// [DllImport("college.dll")]
 	/// public static extern IntPtr GetStudent();
 	/// 
+	/// [UnmanagedStruct(8)]
 	/// public class Student
 	/// {
 	///	    [UnmanagedField(Unmanaged.Type.BOOL)]
@@ -344,10 +344,10 @@ namespace Unmanaged
 	/// </summary>
 	/// <example>
 	/// <code>
-	/// [UnmanagedStruct(8)]
 	/// [DllImport("college.dll")]
 	/// public static extern IntPtr GetStudent();
 	/// 
+	/// [UnmanagedStruct(8)]
 	/// public class Student
 	/// {
 	///	    [UnmanagedField(Unmanaged.Type.BOOL)]
@@ -1312,10 +1312,10 @@ namespace Unmanaged
 		/// <param name="pointer">IntPtr pointer to data structure.</param>
 		/// <example>
 		/// <code>
-		/// [UnmanagedStruct(8)]
 		/// [DllImport("college.dll")]
 		/// public static extern IntPtr GetStudent();
 		/// 
+		/// [UnmanagedStruct(8)]
 		/// public class Student
 		/// {
 		///	    [UnmanagedField(Unmanaged.Type.BOOL)]
@@ -1355,10 +1355,10 @@ namespace Unmanaged
 		/// <param name="encoding">Default encoding.</param>
 		/// <example>
 		/// <code>
-		/// [UnmanagedStruct(8)]
 		/// [DllImport("college.dll")]
 		/// public static extern IntPtr GetStudent();
 		/// 
+		/// [UnmanagedStruct(8)]
 		/// public class Student
 		/// {
 		///	    [UnmanagedField(Unmanaged.Type.BOOL)]
