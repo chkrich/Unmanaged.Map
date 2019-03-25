@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Unmanaged</name>
+    </assembly>
+    <members>
+        <member name="T:Unmanaged.Type">
+            <summary>
+            Unmanaged data type
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.BOOL">
+            <summary>
+            C/C++ bool type, 1 byte. (0 = false, other  = true).
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.CHAR">
+            <summary>
+            C/C++ char type, signed 1 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_CHAR">
+            <summary>
+            C/C++ unsigned char type, unsigned 1 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.INT8">
+            <summary>
+            C/C++ char type, signed 1 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_INT8">
+            <summary>
+            C/C++ unsigned char type, unsigned 1 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.SHORT">
+            <summary>
+            C/C++ short type, signed 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_SHORT">
+            <summary>
+            C/C++ unsigned short type, unsigned 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.INT16">
+            <summary>
+            C/C++ short type, signed 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_INT16">
+            <summary>
+            C/C++ unsigned short type, unsigned 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.INT">
+            <summary>
+            C/C++ int (32-bits), __int32 type, signed 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_INT">
+            <summary>
+            C/C++ unsigned int (32-bits), unsigned __int32 type, unsigned 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.INT32">
+            <summary>
+            C/C++ int (32-bits), __int32 type, signed 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_INT32">
+            <summary>
+            C/C++ unsigned int (32-bits), unsigned __int32 type, unsigned 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.LONG">
+            <summary>
+            C/C++ long type, signed 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_LONG">
+            <summary>
+            C/C++ unsigned long type, unsigned 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.INT64">
+            <summary>
+            C/C++ __int64 type, signed 8 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_INT64">
+            <summary>
+            C/C++ unsigned __int64 type, unsigned 8 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.LONG_LONG">
+            <summary>
+            C/C++ long long type, signed 8 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.UNSIGNED_LONG_LONG">
+            <summary>
+            C/C++ unsigned long long type, unsigned 8 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.BYTE">
+            <summary>
+            C/C++ unsigned char type, unsigned 1 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.WORD">
+            <summary>
+            C/C++ unsigned short type, unsigned 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.DWORD">
+            <summary>
+            C/C++ unsigned int (32-bits), unsigned __int32 type, unsigned 4 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.QWORD">
+            <summary>
+            C/C++ unsigned __int64 type, unsigned 8 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.FLOAT">
+            <summary>
+            C/C++ float type, signed 4 bytes, 3.4E +/- 38 (7 digits).
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.DOUBLE">
+            <summary>
+            C/C++ double type, signed 8 bytes, 1.7E +/- 308 (15 digits).
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.WCHAR">
+            <summary>
+            C/C++ wchar_t type, UTF-16 unsigned 2 byte.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.STRING">
+            <summary>
+            Null-terminated character string (Custom encoding).
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.MULTI_STRING">
+            <summary>
+            Multiple null-terminated character string end with null (Custom encoding).
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.ARRAY">
+            <summary>
+            Array of objects.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.ARRAY_OF_POINTERS">
+            <summary>
+            Array of pointers.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER">
+            <summary>
+            Pointer, The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_BSTR">
+            <summary>
+            Pointer to a null-terminated character string in which the string length is stored with the string. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_ANSI">
+            <summary>
+            Pointer to a null-terminated character ANSI string. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_UTF8">
+            <summary>
+            Pointer to a null-terminated character UTF-8 string. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_UTF16">
+            <summary>
+            Pointer to a null-terminated character UTF-16 string. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_STRING">
+            <summary>
+            Pointer to a null-terminated character string (Custom encoding). The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_MULTI_STRING">
+            <summary>
+            Pointer to multiple null-terminated character string end with null (Custom encoding). The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_ARRAY">
+            <summary>
+            Pointer to an array of objects. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="F:Unmanaged.Type.POINTER_TO_ARRAY_OF_POINTERS">
+            <summary>
+            Pointer to an array of pointers. The size depend on CPU architecture.
+            </summary>
+        </member>
+        <member name="T:Unmanaged.UnmanagedStructAttribute">
+             <summary>
+             Attribute for structure mapping.
+             </summary>
+             <example>
+             <code>
+             [UnmanagedStruct(8)]
+             [DllImport("college.dll")]
+             public static extern IntPtr GetStudent();
+             
+             public class Student
+             {
+            	    [UnmanagedField(Unmanaged.Type.BOOL)]
+            	    public bool Graduated;
+            
+            	    [UnmanagedField(Unmanaged.Type.INT64)]
+            	    public long ID;
+            
+            	    [UnmanagedField(Unmanaged.Type.POINTER_TO_STRING, Encoding = "utf-8")]
+            	    public string Name;
+             }
+             
+             static void Main(string[] args)
+             {
+            	    IntPtr pointer = GetStudent();
+            	    Student student = pointer.MapTo&lt;Student&gt;();
+            
+            	    Console.WriteLine("ID:   " + student.ID);
+            	    Console.WriteLine("Name: " + student.Name);
+            	    if (student.Graduated == true)
+            	    	Console.WriteLine("Graduated from here.");
+            	    else
+            	    	Console.WriteLine("He is a student.");
+             }
+             </code>
+             </example>
+        </member>
+        <member name="M:Unmanaged.UnmanagedStructAttribute.#ctor(System.Int32)">
+            <summary>
+            Constructor for structure mapping
+            </summary>
+            <param name="align">Structure alignment. The value must be 1, 2, 4, 8.</param>
+        </member>
+        <member name="P:Unmanaged.UnmanagedStructAttribute.Align">
+            <summary>
+            Align property. The value must be 1, 2, 4, 8.
+            </summary>
+        </member>
+        <member name="T:Unmanaged.UnmanagedFieldAttribute">
+             <summary>
+             Attribute for field mapping.
+             </summary>
+             <example>
+             <code>
+             [UnmanagedStruct(8)]
+             [DllImport("college.dll")]
+             public static extern IntPtr GetStudent();
+             
+             public class Student
+             {
+            	    [UnmanagedField(Unmanaged.Type.BOOL)]
+            	    public bool Graduated;
+            
+            	    [UnmanagedField(Unmanaged.Type.INT64)]
+            	    public long ID;
+            
+            	    [UnmanagedField(Unmanaged.Type.POINTER_TO_STRING, Encoding = "utf-8")]
+            	    public string Name;
+             }
+             
+             static void Main(string[] args)
+             {
+            	    IntPtr pointer = GetStudent();
+            	    Student student = pointer.MapTo&lt;Student&gt;();
+            
+            	    Console.WriteLine("ID:   " + student.ID);
+            	    Console.WriteLine("Name: " + student.Name);
+            	    if (student.Graduated == true)
+            	    	Console.WriteLine("Graduated from here.");
+            	    else
+            	    	Console.WriteLine("He is a student.");
+             }
+             </code>
+             </example>
+        </member>
+        <member name="M:Unmanaged.UnmanagedFieldAttribute.#ctor(Unmanaged.Type)">
+            <summary>
+            Constructor for structure mapping
+            </summary>
+            <param name="type">Filed type. See <see cref="T:Unmanaged.Type"/></param>
+        </member>
+        <member name="P:Unmanaged.UnmanagedFieldAttribute.Type">
+            <summary>
+            Type property. See <see cref="T:Unmanaged.Type"/>
+            </summary>
+        </member>
+        <member name="P:Unmanaged.UnmanagedFieldAttribute.Encoding">
+            <summary>
+            Encoding property. See <see cref="T:System.Text.Encoding"/>
+            </summary>
+        </member>
+        <member name="P:Unmanaged.UnmanagedFieldAttribute.TargetType">
+            <summary>
+            TargetType property. Use with array or pointer mapping. See <see cref="T:System.Type"/>
+            </summary>
+        </member>
+        <member name="P:Unmanaged.UnmanagedFieldAttribute.Count">
+            <summary>
+            Count property. Number of elements, use with array or pointer mapping. The value can be field name for dynamic size./>
+            </summary>
+        </member>
+        <member name="T:Unmanaged.UnmanagedMap">
+             <summary>
+             Mapping the C/C++ structure to C# class object.
+             </summary>
+             <example>
+             <code>
+             [UnmanagedStruct(8)]
+             [DllImport("college.dll")]
+             public static extern IntPtr GetStudent();
+             
+             public class Student
+             {
+            	    [UnmanagedField(Unmanaged.Type.BOOL)]
+            	    public bool Graduated;
+            
+            	    [UnmanagedField(Unmanaged.Type.INT64)]
+            	    public long ID;
+            
+            	    [UnmanagedField(Unmanaged.Type.POINTER_TO_STRING, Encoding = "utf-8")]
+            	    public string Name;
+             }
+             
+             static void Main(string[] args)
+             {
+            	    IntPtr pointer = GetStudent();
+            	    Student student = pointer.MapTo&lt;Student&gt;();
+            
+            	    Console.WriteLine("ID:   " + student.ID);
+            	    Console.WriteLine("Name: " + student.Name);
+            	    if (student.Graduated == true)
+            	    	Console.WriteLine("Graduated from here.");
+            	    else
+            	    	Console.WriteLine("He is a student.");
+             }
+             </code>
+             </example>
+        </member>
+        <member name="M:Unmanaged.UnmanagedMap.MapTo``1(System.IntPtr)">
+             <summary>
+             Extension for IntPtr variable.
+             </summary>
+             <param name="pointer">IntPtr pointer to data structure.</param>
+             <example>
+             <code>
+             [UnmanagedStruct(8)]
+             [DllImport("college.dll")]
+             public static extern IntPtr GetStudent();
+             
+             public class Student
+             {
+            	    [UnmanagedField(Unmanaged.Type.BOOL)]
+            	    public bool Graduated;
+            
+            	    [UnmanagedField(Unmanaged.Type.INT64)]
+            	    public long ID;
+            
+            	    [UnmanagedField(Unmanaged.Type.POINTER_TO_STRING, Encoding = "utf-8")]
+            	    public string Name;
+             }
+             
+             static void Main(string[] args)
+             {
+            	    IntPtr pointer = GetStudent();
+            	    Student student = pointer.MapTo&lt;Student&gt;();
+            
+            	    Console.WriteLine("ID:   " + student.ID);
+            	    Console.WriteLine("Name: " + student.Name);
+            	    if (student.Graduated == true)
+            	    	Console.WriteLine("Graduated from here.");
+            	    else
+            	    	Console.WriteLine("He is a student.");
+             }
+             </code>
+             </example>
+        </member>
+        <member name="M:Unmanaged.UnmanagedMap.MapTo``1(System.IntPtr,System.String)">
+             <summary>
+             Extension for IntPtr variable.
+             </summary>
+             <param name="pointer">IntPtr pointer to data structure.</param>
+             <param name="encoding">Default encoding.</param>
+             <example>
+             <code>
+             [UnmanagedStruct(8)]
+             [DllImport("college.dll")]
+             public static extern IntPtr GetStudent();
+             
+             public class Student
+             {
+            	    [UnmanagedField(Unmanaged.Type.BOOL)]
+            	    public bool Graduated;
+            
+            	    [UnmanagedField(Unmanaged.Type.INT64)]
+            	    public long ID;
+            
+            	    [UnmanagedField(Unmanaged.Type.POINTER_TO_STRING, Encoding = "utf-8")]
+            	    public string Name;
+             }
+             
+             static void Main(string[] args)
+             {
+            	    IntPtr pointer = GetStudent();
+            	    Student student = pointer.MapTo&lt;Student&gt;("utf-8");
+            
+            	    Console.WriteLine("ID:   " + student.ID);
+            	    Console.WriteLine("Name: " + student.Name);
+            	    if (student.Graduated == true)
+            	    	Console.WriteLine("Graduated from here.");
+            	    else
+            	    	Console.WriteLine("He is a student.");
+             }
+             </code>
+             </example>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,8 @@
+nuget_key.txt
+push.bat
+.vs/
+Example/UnmanagedDll/x64/
+Example/UnmanagedTest/bin/
+Example/UnmanagedTest/obj/
+Unmanaged/bin/
+Unmanaged/obj/
