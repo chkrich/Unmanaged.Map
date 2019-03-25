@@ -27,7 +27,7 @@ public class Student
 static void Main(string[] args)
 {
     IntPtr pointer = GetStudent();
-    Student student = pointer.MapTo&lt;Student&gt;();
+    Student student = pointer.MapTo<Student>();
 
     Console.WriteLine("ID:   " + student.ID);
     Console.WriteLine("Name: " + student.Name);
